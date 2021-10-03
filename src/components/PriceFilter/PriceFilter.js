@@ -10,18 +10,18 @@ import connector from "../../redux/map";
 const PriceFilter = (props) => {
   const { priceField, setPriceField } = props;
   const classes = useStyles(theme);
-  const [priceSlider, setPriceSlider] = useState([0, 100]);
+  const [priceSlider, setPriceSlider] = useState(convert(priceField));
 
   const handlefield = (event, i) => {
     const { value } = event.target;
     const newValues = priceFieldCheck(priceField, value, i);
     setPriceField(newValues);
-    setPriceSlider([convert(newValues[0]), convert(newValues[1])]);
+    setPriceSlider(convert(priceField));
   };
 
   const handleslider = (event, value) => {
     setPriceSlider(value);
-    setPriceField([convert(value[0], true), convert(value[1], true)]);
+    setPriceField(convert(priceSlider, true));
   };
 
   const clear = () => {

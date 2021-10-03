@@ -23,12 +23,13 @@ export const splicer = (array, spliceTo) => {
   return spliced;
 };
 
-export const convert = (value, invert) => {
-  if (invert) {
-    return (value * maximumPrice) / 100;
-  }
-  return (value * 100) / maximumPrice;
-};
+export const convert = (array, invert) =>
+  array.map((n) => {
+    if (invert) {
+      return (n * maximumPrice) / 100;
+    }
+    return (n * 100) / maximumPrice;
+  });
 
 export const priceFieldCheck = (priceField, value, i) => {
   const newField = [...priceField];
@@ -56,27 +57,4 @@ export const priceFieldCheck = (priceField, value, i) => {
   }
 
   return priceField;
-};
-
-const countElementsColumn = (number, height, extraHeight) => {
-  let count = number;
-
-  while (window.innerHeight < count * height + extraHeight) {
-    count--;
-  }
-
-  return count + 1;
-};
-
-export const countElementsPage = (
-  number,
-  width,
-  height,
-  extraHeight,
-  extraWidth
-) => {
-  const elementsPerRow = countElementsRow(number, width, extraWidth);
-  const elementsPerColumn = countElementsColumn(number, height, extraHeight);
-
-  return elementsPerColumn * elementsPerRow;
 };
