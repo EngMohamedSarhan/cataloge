@@ -37,17 +37,17 @@ UI using [MUI](https://github.com/mui-org/material-ui). <br />
 
 <h3>Architecture</h3>
 
-<p style="margin-left: 5px;">
-    React: Fast development and trusted by combanies
-    Redux: Works great with react in state managements
-    Material UI: Reliable in performance
+<p >
+    React: Fast development and trusted by combanies<br />
+    Redux: Works great with react in state managements<br />
+    Material UI: Reliable in performance<br />
 </p>
 
 <h3>Trade-offs</h3>
 
-<p style="margin-left: 5px;">
-    The slider component might lag on weak devices, but it's better UX (its easier to slide than type) 
-    The infinite scrolling is not perfect in case of huge data, but its better UX
+<p >
+    The slider component might lag on weak devices, but it's better UX (its easier to slide than type) <br />
+    The infinite scrolling is not perfect in case of huge data, but its better UX<br />
 </p>
 
 <ul>
@@ -73,7 +73,7 @@ UI using [MUI](https://github.com/mui-org/material-ui). <br />
 
 <h3>ElementsSlider</h3>
 
-<div style="margin-left: 5px;">
+<div >
     <p>Divides children according to screen size</p>
     <label>Props</label>
     <ul>
@@ -94,7 +94,7 @@ UI using [MUI](https://github.com/mui-org/material-ui). <br />
 
 <h3>LazyList</h3>
 
-<div style="margin-left: 5px;">
+<div >
     <p>Enables infinite scrolling to 1D of html/jsx elements</p>
     <label>Props</label>
     <ul>
@@ -113,8 +113,8 @@ UI using [MUI](https://github.com/mui-org/material-ui). <br />
 
 <h3>App</h3>
 
-<p style="margin-left: 5px;">Controls requests and routes in the app</p>
+<p>Controls requests and routes in the app</p>
 
 <h3>Category</h3>
 
-<p style="margin-left: 5px;">Cataloge page</p>
+<p>Cataloge page</p>
