@@ -5,24 +5,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 State management using [Redux](https://github.com/reduxjs/redux). <br />
 UI using [MUI](https://github.com/mui-org/material-ui). <br />
 
-<h3>Performance</h3>
-
-![performance](/screenshots/performance.PNG)
-
-<h3>Desktop screenshots</h3>
-
-![desktop](/screenshots/desktop.PNG)
-![desktop](/screenshots/desktop2.PNG)
-![desktop](/screenshots/desktop3.PNG)
-
-<h3>Mobile screenshots</h3>
-
-<div style="display: flex; flex-wrap: wrap;"> 
-  <img src='/screenshots/mobile.jpg' height='500' />
-  <img src='/screenshots/mobile2.jpg' height='500' />
-  <img src='/screenshots/mobile3.jpg' height='500' />
-</div>
-
 <h3>Problem</h3>
 
 <p>
@@ -73,39 +55,6 @@ UI using [MUI](https://github.com/mui-org/material-ui). <br />
   <li>RatingFilter</li>
 </ul>
 
-<h3>ElementsSlider</h3>
-
-<div >
-    <p>Divides children according to screen size</p>
-    <label>Props</label>
-    <ul>
-    <li>
-        <label>width</label>
-        <p>width per element</p>
-    </li>
-    <li>
-        <label>extraWidth</label>
-        <p>extraWidth is used in case the container is not 100% width</p>
-    </li>
-    <li>  
-        <label>children</label>
-        <p>1D array of html/jsx elements</p>
-    </li>
-    </ul>
-</div>
-
-<h3>LazyList</h3>
-
-<div >
-    <p>Enables infinite scrolling to 1D of html/jsx elements</p>
-    <label>Props</label>
-    <ul>
-    <li>
-        <label>children</label>
-    </li>
-    </ul>
-</div>
-
 <h3>Containers</h3>
 
 <ul>
@@ -113,10 +62,20 @@ UI using [MUI](https://github.com/mui-org/material-ui). <br />
   <li>Category</li>
 </ul>
 
-<h3>App</h3>
+<h3>Performance</h3>
 
-<p>Controls requests and routes in the app</p>
+![performance](/screenshots/performance.PNG)
 
-<h3>Category</h3>
+<h3>Desktop screenshots</h3>
 
-<p>Cataloge page</p>
+![desktop](/screenshots/desktop.PNG)
+![desktop](/screenshots/desktop2.PNG)
+![desktop](/screenshots/desktop3.PNG)
+
+<h3>Mobile screenshots</h3>
+
+<div style="display: flex; flex-wrap: wrap;"> 
+  <img src='/screenshots/mobile.jpg' height='500' />
+  <img src='/screenshots/mobile2.jpg' height='500' />
+  <img src='/screenshots/mobile3.jpg' height='500' />
+</div>
