@@ -23,7 +23,32 @@ UI using [MUI](https://github.com/mui-org/material-ui). <br />
   <img src='/screenshots/mobile3.jpg' height='500' />
 </div>
 
-<h3>Representational components</h3>
+<h3>Problem</h3>
+
+<p style="margin-left: 5px;">
+    Fast and responsive cataloge page
+</p>
+
+<h3>Soluton</h3>
+
+<p style="margin-left: 5px;">
+    Every aspect of the design is responsive and handles any number of data with respect to monitors, tables and mobiles screen sizes
+</p>
+
+<h3>Architecture</h3>
+
+<p style="margin-left: 5px;">
+    React: Fast development and trusted by combanies
+    Redux: Works great with react in state managements
+    Material UI: Reliable in performance
+</p>
+
+<h3>Trade-offs</h3>
+
+<p style="margin-left: 5px;">
+    The slider component might lag on weak devices, but it's better UX (its easier to slide than type) 
+    The infinite scrolling is not perfect in case of huge data, but its better UX
+</p>
 
 <ul>
   <li>CategoryCard</li>
@@ -48,36 +73,36 @@ UI using [MUI](https://github.com/mui-org/material-ui). <br />
 
 <h3>ElementsSlider</h3>
 
-<p>Divides children according to screen size</p>
-
-<label>Props</label>
-
-<ul>
-  <li>
-    <label>width</label>
-    <p>width per element</p>
-  </li>
-  <li>
-    <label>extraWidth</label>
-    <p>extraWidth is used in case the container is not 100% width</p>
-  </li>
-  <li>  
-    <label>children</label>
-    <p>1D array of html/jsx elements</p>
-  </li>
-</ul>
+<div style="margin-left: 5px;">
+    <p>Divides children according to screen size</p>
+    <label>Props</label>
+    <ul>
+    <li>
+        <label>width</label>
+        <p>width per element</p>
+    </li>
+    <li>
+        <label>extraWidth</label>
+        <p>extraWidth is used in case the container is not 100% width</p>
+    </li>
+    <li>  
+        <label>children</label>
+        <p>1D array of html/jsx elements</p>
+    </li>
+    </ul>
+</div>
 
 <h3>LazyList</h3>
 
-<p>Enables infinite scrolling to 1D of html/jsx elements</p>
-
-<label>Props</label>
-
-<ul>
-  <li>
-    <label>children</label>
-  </li>
-</ul>
+<div style="margin-left: 5px;">
+    <p>Enables infinite scrolling to 1D of html/jsx elements</p>
+    <label>Props</label>
+    <ul>
+    <li>
+        <label>children</label>
+    </li>
+    </ul>
+</div>
 
 <h3>Containers</h3>
 
@@ -88,8 +113,8 @@ UI using [MUI](https://github.com/mui-org/material-ui). <br />
 
 <h3>App</h3>
 
-<p>Controls requests and routes in the app</p>
+<p style="margin-left: 5px;">Controls requests and routes in the app</p>
 
 <h3>Category</h3>
 
-<p>Cataloge page</p>
+<p style="margin-left: 5px;">Cataloge page</p>
