@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+<h2>Cataloge (Front-End)</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This projest is live at [Cataloge](https://engmohamedsarhan.github.io/cataloge/#/) <br />
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) <br />
+State management using [Redux](https://github.com/reduxjs/redux). <br />
+UI using [MUI](https://github.com/mui-org/material-ui). <br />
 
-## Available Scripts
+<h3>Performance</h3>
 
-In the project directory, you can run:
+![performance](/screenshots/performance.PNG)
 
-### `yarn start`
+<h3>Desktop screenshots</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![desktop](/screenshots/desktop.PNG)
+![desktop](/screenshots/desktop2.PNG)
+![desktop](/screenshots/desktop3.PNG)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h3>Mobile screenshots</h3>
 
-### `yarn test`
+<div style="display: flex; flex-wrap: wrap;"> 
+  <img src='/screenshots/mobile.jpg' height='500' />
+  <img src='/screenshots/mobile2.jpg' height='500' />
+  <img src='/screenshots/mobile3.jpg' height='500' />
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3>Representational components</h3>
 
-### `yarn build`
+<ul>
+  <li>CategoryCard</li>
+  <li>CategoryDrawer</li>
+  <li>CategoryList</li>
+  <li>ClearButton</li>
+  <li>NotFound</li>
+  <li>MainBar</li>
+  <li>ProductCard</li>
+  <li>FilterDrawer</li>
+</ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>Logical & Representational components</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<ul>
+  <li>ElementsSlider</li>
+  <li>LazyList</li>
+  <li>PriceFilter</li>
+  <li>ColorsFilter</li>
+  <li>RatingFilter</li>
+</ul>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3>ElementsSlider</h3>
 
-### `yarn eject`
+<p>Divides children according to screen size</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<label>Props</label>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<ul>
+  <li>
+    <label>width</label>
+    <p>width per element</p>
+  </li>
+  <li>
+    <label>extraWidth</label>
+    <p>extraWidth is used in case the container is not 100% width</p>
+  </li>
+  <li>  
+    <label>children</label>
+    <p>1D array of html/jsx elements</p>
+  </li>
+</ul>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h3>LazyList</h3>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<p>Enables infinite scrolling to 1D of html/jsx elements</p>
 
-## Learn More
+<label>Props</label>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<ul>
+  <li>
+    <label>children</label>
+  </li>
+</ul>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h3>Containers</h3>
 
-### Code Splitting
+<ul>
+  <li>App</li>
+  <li>Category</li>
+</ul>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<h3>App</h3>
 
-### Analyzing the Bundle Size
+<p>Controls requests and routes in the app</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<h3>Category</h3>
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>Cataloge page</p>
