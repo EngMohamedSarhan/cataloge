@@ -45,15 +45,6 @@ const Category = (props) => {
   const classes = useStyles(theme);
   const results = useRef(0);
 
-  if (
-    products.filter((p) => filterObject(p, "categoryId", Number(id))).length ===
-      0 &&
-    isCategoriesPending !== true &&
-    isProductsPending !== true
-  ) {
-    return <NotFound />;
-  }
-
   const prepareProducts = () => {
     let temp = products.filter((p) =>
       filterObject(p, "categoryId", Number(id))
@@ -84,7 +75,10 @@ const Category = (props) => {
       <ProductCard key={product.id} product={product} />
     ));
 
-  return (
+  return isNaN(Number(id)) ||
+    (id > categories.length && categories.length !== 0) ? (
+    <NotFound />
+  ) : (
     <Box sx={classes.flex}>
       <FilterDrawer open={isFilterOpen} setOpen={setIsFilterOpen} />
       <Box sx={{ ...classes.barMargin, ...classes.fullWidth }}>

@@ -35,11 +35,12 @@ function App(props) {
       <MainBar />
       {isCategoriesPending && <LinearProgress />}
       {categories.length !== 0 &&
-      (location.pathname === "/" || location.pathname === "/cataloge") ? (
+      (location.pathname === "/" || location.pathname === "/cataloge/") ? (
         <Redirect to={`/cataloge/category/${categories[0].id}`} />
       ) : null}
       <ScrollToTop />
       <Switch location={location}>
+        <Route exact path='/' />
         <Route exact path='/cataloge' />
         <Route exact path='/cataloge/category/:id' component={Category} />
         <Route component={NotFound} />
