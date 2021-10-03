@@ -25,13 +25,13 @@ UI using [MUI](https://github.com/mui-org/material-ui). <br />
 
 <h3>Problem</h3>
 
-<p style="margin-left: 5px;">
+<p>
     Fast and responsive cataloge page
 </p>
 
 <h3>Soluton</h3>
 
-<p style="margin-left: 5px;">
+<p>
     Every aspect of the design is responsive and handles any number of data with respect to monitors, tables and mobiles screen sizes
 </p>
 
