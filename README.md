@@ -50,6 +50,8 @@ UI using [MUI](https://github.com/mui-org/material-ui). <br />
     The infinite scrolling is not perfect in case of huge data, but its better UX<br />
 </p>
 
+<h3>Representational components</h3>
+
 <ul>
   <li>CategoryCard</li>
   <li>CategoryDrawer</li>
@@ -61,7 +63,7 @@ UI using [MUI](https://github.com/mui-org/material-ui). <br />
   <li>FilterDrawer</li>
 </ul>
 
-<h3>Logical & Representational components</h3>
+<h3>Logical and Representational components</h3>
 
 <ul>
   <li>ElementsSlider</li>
