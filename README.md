@@ -1,6 +1,6 @@
 <h2>Cataloge (Front-End)</h2>
 
-This projest is live at [Cataloge](https://engmohamedsarhan.github.io/cataloge/#/) <br />
+This project is live at [Cataloge](https://engmohamedsarhan.github.io/cataloge/#/) <br />
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) <br />
 State management using [Redux](https://github.com/reduxjs/redux). <br />
 UI using [MUI](https://github.com/mui-org/material-ui). <br />
@@ -20,8 +20,8 @@ UI using [MUI](https://github.com/mui-org/material-ui). <br />
 <h3>Architecture</h3>
 
 <p >
-    React: Fast development and trusted by combanies<br />
-    Redux: Works great with react in state managements<br />
+    React: Fast development and trusted by companies<br />
+    Redux: Works great with react in state management<br />
     Material UI: Reliable in performance<br />
 </p>
 
