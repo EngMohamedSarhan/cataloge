@@ -11,7 +11,7 @@ UI using [MUI](https://github.com/mui-org/material-ui). <br />
     Fast and responsive cataloge page
 </p>
 
-<h3>Soluton</h3>
+<h3>Solution</h3>
 
 <p>
     Every aspect of the design is responsive and handles any number of data with respect to monitors, tables and mobiles screen sizes
